@@ -1,0 +1,21 @@
+server:
+  port: "8080"
+
+database:
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "" # This should be configured in your local app.yaml
+  dbname: "venturex_dev"
+  sslmode: "disable"
+  timezone: Asia/Bangkok
+  pool:
+
+jwt:
+  # If you have PEM encoded keys, specify paths here. Otherwise they will be generated at runtime.
+  # private_key_path: "keys/private.pem"
+  # public_key_path: "keys/public.pem"
+  access_token_duration: "15m"
+  refresh_token_duration: "168h" # 7 days
+  issuer: "beerdosan-backend"
+  audience: "beerdosan-app"
