@@ -3,7 +3,7 @@
 package jwt
 
 import (
-	jwt "venturex-backend/internal/pkg/jwt"
+	jwt "beerdosan-backend/internal/pkg/jwt"
 
 	mock "github.com/stretchr/testify/mock"
 

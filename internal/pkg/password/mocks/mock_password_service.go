@@ -3,7 +3,7 @@
 package password
 
 import (
-	password "venturex-backend/internal/pkg/password"
+	password "beerdosan-backend/internal/pkg/password"
 
 	mock "github.com/stretchr/testify/mock"
 )

@@ -7,7 +7,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"venturex-backend/internal/pkg/validator"
+	"beerdosan-backend/internal/pkg/validator"
 )
 
 type ResponseStatus struct {

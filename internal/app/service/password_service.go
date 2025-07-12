@@ -1,7 +1,7 @@
 package service
 
 import (
-	"venturex-backend/internal/app/domain"
+	"beerdosan-backend/internal/app/domain"
 )
 
 type PasswordService interface {

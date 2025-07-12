@@ -4,7 +4,7 @@ package repositories
 
 import (
 	context "context"
-	domain "venturex-backend/internal/app/domain"
+	domain "beerdosan-backend/internal/app/domain"
 
 	mock "github.com/stretchr/testify/mock"
 )

@@ -4,8 +4,8 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"venturex-backend/internal/app/domain"
-	"venturex-backend/internal/pkg/password"
+	"beerdosan-backend/internal/app/domain"
+	"beerdosan-backend/internal/pkg/password"
 )
 
 type passwordServiceImpl struct {

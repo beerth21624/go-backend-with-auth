@@ -13,7 +13,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/rs/zerolog/log"
 
-	"venturex-backend/internal/app/service"
+	"beerdosan-backend/internal/app/service"
 )
 
 const (

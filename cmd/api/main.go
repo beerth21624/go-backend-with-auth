@@ -10,17 +10,17 @@ import (
 	"syscall"
 	"time"
 
-	"venturex-backend/internal/app/config"
-	"venturex-backend/internal/pkg/database"
-	"venturex-backend/internal/pkg/jwt"
-	"venturex-backend/internal/pkg/logger"
-	"venturex-backend/internal/pkg/password"
+	"beerdosan-backend/internal/app/config"
+	"beerdosan-backend/internal/pkg/database"
+	"beerdosan-backend/internal/pkg/jwt"
+	"beerdosan-backend/internal/pkg/logger"
+	"beerdosan-backend/internal/pkg/password"
 
-	"venturex-backend/internal/app/api"
-	v1 "venturex-backend/internal/app/api/v1"
-	"venturex-backend/internal/app/repositories"
-	"venturex-backend/internal/app/service"
-	"venturex-backend/internal/app/usecase"
+	"beerdosan-backend/internal/app/api"
+	v1 "beerdosan-backend/internal/app/api/v1"
+	"beerdosan-backend/internal/app/repositories"
+	"beerdosan-backend/internal/app/service"
+	"beerdosan-backend/internal/app/usecase"
 
 	"github.com/gin-gonic/gin"
 )

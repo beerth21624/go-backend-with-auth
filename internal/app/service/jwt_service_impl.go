@@ -4,8 +4,8 @@ import (
 	"crypto/sha256"
 	"encoding/binary"
 	"strconv"
-	"venturex-backend/internal/app/domain"
-	"venturex-backend/internal/pkg/jwt"
+	"beerdosan-backend/internal/app/domain"
+	"beerdosan-backend/internal/pkg/jwt"
 )
 
 type jwtServiceImpl struct {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"venturex-backend/internal/pkg/validator"
+	"beerdosan-backend/internal/pkg/validator"
 )
 
 type AppError struct {

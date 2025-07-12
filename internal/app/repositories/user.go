@@ -2,8 +2,8 @@ package repositories
 
 import (
 	"context"
-	"venturex-backend/internal/app/domain"
-	"venturex-backend/internal/pkg/database"
+	"beerdosan-backend/internal/app/domain"
+	"beerdosan-backend/internal/pkg/database"
 )
 
 type UserRepository interface {

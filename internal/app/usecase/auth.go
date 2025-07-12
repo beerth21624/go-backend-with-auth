@@ -3,10 +3,10 @@ package usecase
 import (
 	"context"
 
-	"venturex-backend/internal/app/domain"
-	"venturex-backend/internal/app/repositories"
-	"venturex-backend/internal/app/service"
-	"venturex-backend/internal/pkg/database"
+	"beerdosan-backend/internal/app/domain"
+	"beerdosan-backend/internal/app/repositories"
+	"beerdosan-backend/internal/app/service"
+	"beerdosan-backend/internal/pkg/database"
 )
 
 type AuthUseCase interface {

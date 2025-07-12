@@ -1,9 +1,9 @@
 package service
 
 import (
-	"venturex-backend/internal/app/repositories"
-	"venturex-backend/internal/pkg/jwt"
-	"venturex-backend/internal/pkg/password"
+	"beerdosan-backend/internal/app/repositories"
+	"beerdosan-backend/internal/pkg/jwt"
+	"beerdosan-backend/internal/pkg/password"
 )
 
 type ServiceRegistry struct {

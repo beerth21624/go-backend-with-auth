@@ -3,8 +3,8 @@ package api
 import (
 	"errors"
 
-	"venturex-backend/internal/app/domain"
-	"venturex-backend/internal/pkg/validator"
+	"beerdosan-backend/internal/app/domain"
+	"beerdosan-backend/internal/pkg/validator"
 )
 
 func MapDomainError(err error) *AppError {

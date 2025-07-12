@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	"venturex-backend/internal/pkg/database"
+	"beerdosan-backend/internal/pkg/database"
 )
 
 type AppConfig struct {

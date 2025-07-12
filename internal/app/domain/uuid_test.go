@@ -3,7 +3,7 @@ package domain_test
 import (
 	"testing"
 
-	"venturex-backend/internal/app/domain"
+	"beerdosan-backend/internal/app/domain"
 
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"

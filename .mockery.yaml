@@ -3,22 +3,22 @@ mockname: "Mock{{.InterfaceName}}"
 filename: "mock_{{.InterfaceNameSnake}}.go"
 dir: "{{.InterfaceDir}}/mocks"
 packages:
-  venturex-backend/internal/app/repositories:
+  beerdosan-backend/internal/app/repositories:
     interfaces:
       UserRepository:
       SessionRepository:
       LoginAttemptRepository:
-  venturex-backend/internal/app/service:
+  beerdosan-backend/internal/app/service:
     interfaces:
       AuthService:
       JWTService:
       PasswordService:
-  venturex-backend/internal/pkg/database:
+  beerdosan-backend/internal/pkg/database:
     interfaces:
       TransactionManagerInterface:
-  venturex-backend/internal/pkg/jwt:
+  beerdosan-backend/internal/pkg/jwt:
     interfaces:
       JWTService:
-  venturex-backend/internal/pkg/password:
+  beerdosan-backend/internal/pkg/password:
     interfaces:
       PasswordService:

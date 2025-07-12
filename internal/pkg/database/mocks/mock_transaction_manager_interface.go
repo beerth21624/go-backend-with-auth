@@ -4,7 +4,7 @@ package database
 
 import (
 	context "context"
-	database "venturex-backend/internal/pkg/database"
+	database "beerdosan-backend/internal/pkg/database"
 
 	gorm "gorm.io/gorm"
 

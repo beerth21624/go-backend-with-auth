@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"venturex-backend/internal/app/domain"
+	"beerdosan-backend/internal/app/domain"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

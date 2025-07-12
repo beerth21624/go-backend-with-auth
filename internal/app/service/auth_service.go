@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
-	"venturex-backend/internal/app/domain"
-	"venturex-backend/internal/app/repositories"
+	"beerdosan-backend/internal/app/domain"
+	"beerdosan-backend/internal/app/repositories"
 )
 
 type AuthService interface {

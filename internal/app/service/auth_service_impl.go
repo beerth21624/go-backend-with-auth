@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"venturex-backend/internal/app/domain"
+	"beerdosan-backend/internal/app/domain"
 )
 
 type AuthClaims struct {

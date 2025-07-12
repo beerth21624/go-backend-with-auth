@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"venturex-backend/internal/app/domain"
-	"venturex-backend/internal/pkg/sliceutil"
+	"beerdosan-backend/internal/app/domain"
+	"beerdosan-backend/internal/pkg/sliceutil"
 )
 
 type UserInfo struct {

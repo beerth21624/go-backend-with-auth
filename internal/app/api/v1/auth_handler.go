@@ -3,10 +3,10 @@ package v1
 import (
 	"github.com/gin-gonic/gin"
 
-	"venturex-backend/internal/app/api"
-	"venturex-backend/internal/app/domain"
-	"venturex-backend/internal/app/service"
-	"venturex-backend/internal/app/usecase"
+	"beerdosan-backend/internal/app/api"
+	"beerdosan-backend/internal/app/domain"
+	"beerdosan-backend/internal/app/service"
+	"beerdosan-backend/internal/app/usecase"
 )
 
 type AuthHandler struct {

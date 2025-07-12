@@ -63,7 +63,7 @@ func DefaultJWTConfig() (*JWTConfig, error) {
 		PublicKey:            &privateKey.PublicKey,
 		AccessTokenDuration:  15 * time.Minute,
 		RefreshTokenDuration: 7 * 24 * time.Hour, // 7 days
-		Issuer:               "venturex-backend",
+		Issuer:               "beerdosan-backend",
 		Audience:             "venturex-app",
 	}, nil
 }
@@ -107,7 +107,7 @@ func LoadJWTConfigFromPEM(privateKeyPEM, publicKeyPEM string) (*JWTConfig, error
 		PublicKey:            publicKey,
 		AccessTokenDuration:  15 * time.Minute,
 		RefreshTokenDuration: 7 * 24 * time.Hour,
-		Issuer:               "venturex-backend",
+		Issuer:               "beerdosan-backend",
 		Audience:             "venturex-app",
 	}, nil
 }
